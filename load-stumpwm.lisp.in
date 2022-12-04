@@ -4,6 +4,8 @@
 (error "This lisp implementation is not supported.")
 
 (require 'asdf)
+(require 'swank)
+(require 'xkeyboard)
 
 (asdf:initialize-source-registry
  '(:source-registry
